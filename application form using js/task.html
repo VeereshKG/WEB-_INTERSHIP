@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>x-workz</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+    crossorigin="anonymous"/>
+    <script src="./task.js"></script>
+</head>
+<body class="body">
+    <div class="container">
+        <nav class="p-3 mb-2 bg-black text-white">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">PERSONAL DETAILS</a>
+            </div>
+          </nav>
+
+    <form name="gender">
+        <div class="row">
+        <div class="col-4" >
+        <label>NAME OF APPLICANT</label>
+        <input type="text" placeholder="FIRST NAME" id="fname" ></div>
+        <div class="col-4">
+        <input type="text" placeholder=" MIDDLE NAME" id="mname"></div>
+        <div class="col-4">
+        <input type="text" placeholder=" LAST NAME" id="lname"></div>
+    </div>
+    
+    <br>
+    
+        <div class="row">
+        <div class="col-4">
+        <label>RELATION</label>
+        <select name="relation" id="relationtype">
+            <option value="">select</option>
+            <option value="">father</option>
+            <option value="">mother</option>
+            <option value="">guardian</option>
+        </select>
+        <input type="text" placeholder="FIRST NAME" id="rfname"></div>
+        <div class="col-4">
+        <input type="text" placeholder=" MIDDLE NAME"id="rmname"></div>
+        <div class="col-4">
+        <input type="text" placeholder=" LAST NAME" id="rlname"></div>
+    </div>
+    
+    <br>
+   
+        <div class="row">
+        <div class="col-12">
+        <label>FULL NAME AS PER RECORDS:</label>
+        
+        <input type="text" placeholder=" NEW FULL NAME" style="width: 50rem; align-items: center;"id="fullname"></div>
+    </div>
+   
+    <br>
+        <div class="row">
+        <div class="col-2">
+        <label>GENDER:</label>
+        
+        <input type="radio" name="gender" value="male" >
+        <label>male</label></div>
+        <div class="col-1">
+        <input type="radio" name="gender" value="female">
+        <label>female</label></div>
+        <div class="col-1">
+        <input type="radio" name="gender" value="others">
+        <label>others</label></d></div>
+        <div class="col-4">
+            <label>DATE OF BIRTH</label></d>
+            <input type="date" placeholder="DOB" id="dob"></div>
+            <div class="col-4">
+                <label>AGE</label></d>
+                <input type="number" placeholder="AGE" id="age">Yrs</div>
+</div>
+    <br>
+   
+        <div class="row">
+        <div class="col-6" >
+        <label>PLACE OF BIRTH</label>
+        <input type="text" placeholder="PLACE OF BIRTH" id="pob"></div>
+        <div class="col-6">
+        <label>COUNTRY OF BIRTH</label>
+        <select name="COUNTRY OF BIRTH" id="cob">
+            <option value="">select</option>
+            <option value="">INDIA</option>
+            <option value="">ICELAND</option>
+            <option value="">GERMANY</option>
+            <option value="">GREECE</option>
+            <option value="">HAITI</option>
+            <option value="">HONG KONG</option>
+        </select></div>
+    
+    </div>
+    <br>
+        
+            <div class="row">
+            <div class="col-6" >
+            <label>QUALIFICATION</label>
+            <select name="QUALIFICATION" id="qualification" >
+                <option value="">select</option>
+                <option value="">8th passed</option>
+                <option value="">10+2</option>
+                <option value="">10th standard</option>
+                <option value="">diploma</option>
+                <option value="">Illiterate</option>
+                <option value="">ITI</option>
+            </select></div>
+            <div class="col-6">
+            <label>BLOOD GROUP</label>
+            <select name="BLOOD GROUP" id="bg">
+                <option value="">select</option>
+                <option value="">A+</option>
+                <option value="">B+</option>
+                <option value="">O-</option>
+                <option value="">O+</option>
+                <option value="">AB+</option>
+                <option value="">Unknow</option>
+            </select></div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-6" >
+            <label>LANDLINE NUMBER</label>
+            <input type="number" placeholder="Ex:040237837" id="lno" ></div>
+            <div class="col-6">
+            <label>email id</label>
+            <input type="text" placeholder="Ex:abc@gmail.com" id="email"></div>
+
+            
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-6" >
+            <label>APPLICANTS MOBILE NUMBER</label>
+            <input type="button" value="+91">
+            <input type="number" placeholder="APPLICANT MOBILE NUMBER" id="appno"></div>
+            <div class="col-6">
+            <label>EMERGENCY MOBILE NUMBER</label>
+            <input type="button" value="+91">
+            <input type="number" placeholder=" EMERGENCY MOBILE NUMBER" id="eno"></div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-6" >
+            <label>IDENTIFICATION MARK 1</label>
+            <input type="text" placeholder="SCAR ON HEAD,MOLE ON RIGHT HAND" id="identification1"></div>
+            <div class="col-6">
+            <label>2</label>
+            <input type="text" placeholder=" SCAR ON HEAD,MOLE ON RIGHT HAND" id="identification2"></div>
+
+            
+        </div>
+<br>
+<input type="button" value="submit" onclick="FormSubmit()">
+        </form>
+
+</DIV>
+<a href="../index.html">return to index</a>
+</body>
+</html>
